@@ -19,7 +19,7 @@ AFSENDER = "GodkendTimeregistreringAutomail@aarhus.dk"
 
 # Sæt til False, når mails skal ud til de rigtige ledere.
 # Når True, sendes alle mails til konstanten 'balas' i stedet.
-TESTKOERSEL = True
+TESTKOERSEL = False
 
 
 def _formater_timer(timer: float) -> str:
