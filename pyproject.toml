@@ -20,10 +20,8 @@ dependencies = [
     "OpenOrchestrator == 3.0.0",
     "Pillow == 10.4.0",
     "pytz == 2024.2",
-    "cryptography == 50.0.2",
+    "cryptography == 45.0.7",
 ]
-
-
 [project.optional-dependencies]
 dev = [
   "pylint",
